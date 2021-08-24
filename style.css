@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header starts */
+.navbar{
+    background-color: #F1F5F7;
+    position: fixed;
+    padding: 10px;
+}
+.navbar a{
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: lightgray;
+    
+}
+/* header ends */
+
+
+/* main starts */
+.banner{
+    background-image: url(images/banner.JPG);
+    height: 730px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+  
+}
+.architects{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+.span-bg{
+    background-color: black;
+    padding:3px 8px;
+    margin: 10px;
+}
+.row h3{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 8px;
+    padding: 5px;
+}
+.house-1{
+    background-image: url(images/house2.jpg);
+    height: 15rem;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 9px;
+}
+.house-2{
+    background-image: url(images/house3.jpg);
+    height: 15rem;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 9px;
+}
+.house-3{
+    background-image: url(images/house4.jpg);
+    height: 15rem;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 9px;
+}
+.house-4{
+    background-image: url(images/house5.jpg);
+    height: 15rem;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 9px;
+}
+
+.box-1 img{
+    position: relative;
+    left: 20px;
+}
+.box-1 h3{
+    margin-top: 0;
+
+}
+.card{
+    border: none;
+}
+
+/* main ends */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {  
+    .house-1{
+        background-image: url(images/house2.jpg);
+        height: 15rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px 0 10px 25px;
+    }
+    .house-2{
+        background-image: url(images/house3.jpg);
+        height: 15rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px 0 10px 25px;
+    }
+    .house-3{
+        background-image: url(images/house4.jpg);
+        height: 15rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px 0 10px 25px;
+    }
+    .house-4{
+        background-image: url(images/house5.jpg);
+        height: 15rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px 0 10px 25px;
+    }
+}
+
+
+
